@@ -67,16 +67,21 @@ nav {
 
 a {
 	text-decoration: none;
+	color: #5e5e5e;
+}
+
+.navLinkBox a:hover {
+	text-decoration: underline;
+	text-decoration-style: dashed;
 	color: black;
 }
 
-.navLinkBox:hover {
-	text-decoration: underline;
-	text-decoration-style: dotted;
+.logoLink {
+	color: black;
 }
 
 .logoLink:hover {
-	color: #C47200;
+	color: #668885;
 	}
 
 .navContainer {
