@@ -231,7 +231,7 @@ main {
 	width: 1200px;
 	margin: 0;
 	overflow: auto;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .portfolioContainer {
@@ -251,16 +251,52 @@ main {
 }
 
 .portfolioBox {
-	height: 275px;
-	width: 33.333%;
-	font-family: 'Baskerville MT Std';
-	margin: 0;
-	padding: 0;
-	float: left;
-	border: 0;
-	
+	background-size: cover;
+    background-position: center;
+    height: 265px;
+    margin: 0 auto;
+    overflow: hidden;
+
 }
 
+.box1 {
+	background-image: url('images/port1.png');
+
+}
+
+.box2 {
+	background-image: url('images/port1.png');
+
+}
+
+.box3 {
+	background-image: url('images/port1.png');
+
+}
+
+.box4 {
+	background-image: url('images/port1.png');
+
+}
+
+.box5 {
+	background-image: url('images/port1.png');
+
+}
+
+.box6 {
+	background-image: url('images/port1.png');
+}
+
+
+.insideSpacer {
+	float: left;
+	width: 33.333%;
+	padding: 5px;
+	overflow: auto;
+	margin: 0 auto;
+}
+	
 .portfolioBoxHead {
 	margin: 0;
 	padding:0;
@@ -268,7 +304,7 @@ main {
 
 .portfolioBoxSubheading {
 	margin: 0;
-	padding:0;
+	padding: 0;
 }
 
 
@@ -291,28 +327,38 @@ main {
 	}
 	
 	section {
-		width: 900px;
+		width: 840px;
 	}
 	
 	.samplePortfolioContainer {
-	width: 93.3333%;
+		/* width: 93.3333%; */
+		width: 98%;
 	}
 
 	.samplePortfolioSpacer {
-	width: 3.3333%;
+		/* width: 3.3333%; */
+		width: 1%;
 	}
 	
 	main {
-		width: 900px;
+		width: 840px;
+	}
+	
+	.portfolioContainer {
+		width: 98%;
+	}
+	
+	.portfolioSpacer {
+		width: 1%;
 	}
 	
 }
 
 
-@media screen and (max-width: 750px)
+@media screen and (max-width: 850px)
 {
 	nav {
-		width: 500px;
+		width: 600px;
 	}
 	
 	.navContainer {
@@ -348,4 +394,58 @@ main {
 	.navContainer .navDot {
 		height: 15px;
 	}
+	
+	
+	section {
+		width: 600px;
+	}
+	
+	.samplePortfolioContainer {
+		/* width: 93.3333%; */
+		width: 98%;
+	}
+
+	.samplePortfolioSpacer {
+		/* width: 3.3333%; */
+		width: 1%;
+	}
+	
+	.samplePortfolioBoxHead {
+	padding: 0;
+	margin: 115px 0 0 45px;
+	float: left;
+	font-size: 21px;
+	letter-spacing: 4.3px;
+	line-height: 38px;
+	}
+	
+	.samplePortfolioBoxSubheading {
+	font-family: 'Baskerville MT Std';
+	padding: 0;
+	margin: 0 115px 0 0;
+	float: right;
+	font-style: italic;
+	font-size: 22px;
+	letter-spacing: 2.1px;
+	line-height: 24px;
+	}
+	
+	main {
+		width: 600px;
+	}
+	
+	.portfolioContainer {
+		width: 98%;
+	}
+	
+	.portfolioSpacer {
+		width: 1%;
+	}
+	
+	.insideSpacer {
+		width: 50%;
+	}
+	
+}
+
 }
