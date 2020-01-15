@@ -52,6 +52,41 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Baskerville MT Std';
+    src: url('fonts/BaskervilleMTStd-Italic.eot');
+    src: url('fonts/BaskervilleMTStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BaskervilleMTStd-Italic.woff2') format('woff2'),
+        url('fonts/BaskervilleMTStd-Italic.woff') format('woff'),
+        url('fonts/BaskervilleMTStd-Italic.ttf') format('truetype'),
+        url('fonts/BaskervilleMTStd-Italic.svg#BaskervilleMTStd-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Baskerville MT Semi';
+    src: url('fonts/BaskervilleMTStd-SemiBdIt.eot');
+    src: url('fonts/BaskervilleMTStd-SemiBdIt.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BaskervilleMTStd-SemiBdIt.woff2') format('woff2'),
+        url('fonts/BaskervilleMTStd-SemiBdIt.woff') format('woff'),
+        url('fonts/BaskervilleMTStd-SemiBdIt.ttf') format('truetype'),
+        url('fonts/BaskervilleMTStd-SemiBdIt.svg#BaskervilleMTStd-SemiBdIt') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Baskerville MT Semi';
+    src: url('fonts/BaskervilleMTStd-SemiBd.eot');
+    src: url('fonts/BaskervilleMTStd-SemiBd.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BaskervilleMTStd-SemiBd.woff2') format('woff2'),
+        url('fonts/BaskervilleMTStd-SemiBd.woff') format('woff'),
+        url('fonts/BaskervilleMTStd-SemiBd.ttf') format('truetype'),
+        url('fonts/BaskervilleMTStd-SemiBd.svg#BaskervilleMTStd-SemiBd') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
 
 
 body {
@@ -67,13 +102,11 @@ nav {
 
 a {
 	text-decoration: none;
-	color: #5e5e5e;
+	color: #000000;
 }
 
 .navLinkBox a:hover {
-	text-decoration: underline;
-	text-decoration-style: dashed;
-	color: black;
+	color: #668885;
 }
 
 .logoLink {
@@ -81,19 +114,18 @@ a {
 }
 
 .logoLink:hover {
-	color: #668885;
-	}
+}
 
 .navContainer {
 	float: left;
 	overflow: auto;
-	width: 12.5%;
+	width: 13.5%;
 
 }
 
 .navContainer div {
 	height: 50px;
-	background-color: white;
+	background-color: #ffffff;
 	text-align: center;
 }
 
@@ -103,12 +135,15 @@ a {
 	font-size: 14px;
 	font-weight: bold;
 	padding-top: 10px;
+	letter-spacing: 1px;
+
 }
 
 .navContainer .navLinkBox {
 	padding-left: 40px;
 	padding-top: 15px;
 	font-size: 18px;
+	letter-spacing: 2px;
 }
 
 .navContainer .logoBox p {
@@ -116,10 +151,12 @@ a {
   	margin: 0;
 }
 
+
+
 .navSpacer {
 	float: left;
 	overflow: auto;
-	width: 25%;
+	width: 23%;
 }
 
 
@@ -129,10 +166,116 @@ a {
 	text-align: center;
 }
 
+section {
+	width: 1200px;
+	margin: 0;
+	overflow: auto;
+	padding-top: 30px;
+}
+
+.samplePortfolioContainer {
+	float: left;
+	overflow: auto;
+	width: 70%;
+}
+
+.samplePortfolioSpacer {
+	width: 15%;
+	float: left;
+	overflow: auto;
+}
+
+.samplePortfolioSpacer div {
+	height: 275px;
+}
+
+.samplePortfolioBox {
+	height: 275px;
+	background-image: url('images/whiskyportcrop.png');
+	color: #ffffff;
+	font-family: 'Baskerville MT Semi';
+	font-weight: 600;	
+	clear: both;
+}
+
+.samplePortfolioBoxHead {
+	padding: 0;
+	margin: 118px 0 0 80px;
+	float: left;
+	font-size: 21px;
+	letter-spacing: 4.3px;
+	line-height: 38px;
+}
+
+.samplePortfolioBoxHead span {
+	font-family: 'Baskerville MT Std';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28;
+	letter-spacing: 3px;
+}
+
+.samplePortfolioBoxSubheading {
+	font-family: 'Baskerville MT Std';
+	padding: 0;
+	margin: 0 150px 0 0;
+	float: right;
+	font-style: italic;
+	font-size: 22px;
+	letter-spacing: 2.1px;
+	line-height: 24px;
+}
+
+
+main {
+	width: 1200px;
+	margin: 0;
+	overflow: auto;
+	padding-top: 20px;
+}
+
+.portfolioContainer {
+	float: left;
+	overflow: auto;
+	width: 70%;
+}
+
+.portfolioSpacer {
+	width: 15%;
+	float: left;
+	overflow: auto;
+}
+
+.portfolioSpacer div {
+	height: 275px;
+}
+
+.portfolioBox {
+	height: 275px;
+	width: 33.333%;
+	font-family: 'Baskerville MT Std';
+	margin: 0;
+	padding: 0;
+	float: left;
+	border: 0;
+	
+}
+
+.portfolioBoxHead {
+	margin: 0;
+	padding:0;
+}
+
+.portfolioBoxSubheading {
+	margin: 0;
+	padding:0;
+}
+
+
 @media screen and (max-width: 1100px)
 {
 	nav {
-		width: 800px;
+		width: 900px;
 	}
 	
 	.navSpacer {
@@ -146,13 +289,30 @@ a {
 	.navContainer .navLinkBox {
 		font-size: 16px;
 	}
+	
+	section {
+		width: 900px;
+	}
+	
+	.samplePortfolioContainer {
+	width: 93.3333%;
+	}
+
+	.samplePortfolioSpacer {
+	width: 3.3333%;
+	}
+	
+	main {
+		width: 900px;
+	}
+	
 }
 
 
 @media screen and (max-width: 750px)
 {
 	nav {
-		width: 400px;
+		width: 500px;
 	}
 	
 	.navContainer {
