@@ -91,7 +91,7 @@
 
 body {
 	margin: 0;
-	font-family: 'News Gothic MT Std';
+	font-family: 'News Gothic MT Std', Arial, Helvetica, sans-serif;
 	}
 
 nav {
@@ -124,7 +124,7 @@ a {
 
 
 .navContainer .logoBox {
-  	font-family: 'Baskerville MT Std';
+  	font-family: 'Baskerville MT Std', Georgia, serif;
 	font-size: 14px;
 	font-weight: bold;
 	padding-top: 0px;
@@ -190,7 +190,7 @@ a {
 	padding: 0;
 	margin: 0;
 	font-size: 30px;
-	font-family: 'Baskerville MT Std';
+	font-family: 'Baskerville MT Std', Georgia, serif;
 }
 
 section {
@@ -220,7 +220,7 @@ section {
 	height: 275px;
 	background-image: url('images/whiskyportcrop.png');
 	color: #ffffff;
-	font-family: 'Baskerville MT Semi';
+	font-family: 'Baskerville MT Semi', Georgia, serif;
 	font-weight: 600;	
 	clear: both;
 }
@@ -239,7 +239,7 @@ section {
 }
 
 .samplePortfolioBoxHead span {
-	font-family: 'Baskerville MT Std';
+	font-family: 'Baskerville MT Std', Georgia, serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 28px;
@@ -247,7 +247,7 @@ section {
 }
 
 .samplePortfolioBoxSubheading {
-	font-family: 'Baskerville MT Std';
+	font-family: 'Baskerville MT Std', Georgia, serif;
 	padding: 0;
 	margin: 0 150px 0 0;
 	float: right;
@@ -272,7 +272,7 @@ main {
 	}
 
 .portfolioContainerTitle p {
-	font-family: 'Baskerville MT Std';
+	font-family: 'Baskerville MT Std', Georgia, serif;
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -359,9 +359,16 @@ main {
 	letter-spacing: 2px;
 	font-size: 18px;
 }
+
+.contactMeTitle {
+	padding: 45px 0 0 0;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
 	
-.aboutMeTitle p {
-	font-family: 'Baskerville MT Std';
+.aboutMeTitle p, .contactMeTitle p {
+	font-family: 'Baskerville MT Std', Georgia, serif;
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -374,20 +381,25 @@ aside {
 	overflow: auto;
 }
 
-.aboutMeSpacer {
+.aboutMeSpacer, .contactMeSpacer {
 	width: 25%;
 	float: left;
 	overflow: auto;
 }
 
-.aboutMeSpacer div {	
+.aboutMeSpacer div, .contactMeSpacer div {	
 	height: 80px;
 }
 
-.aboutMeContainer {
+.aboutMeContainer, .contactMeContainer {
 	overflow: auto;
 	width: 50%;
 	margin: 0;
+	padding: 0;
+}
+
+.contactMeContainer {
+	padding: 0 50px 0 50px;
 }
 
 .aboutInsideSpacer {
@@ -419,17 +431,35 @@ aside {
 
 .aboutMeTextTitle {
 	margin: 0;
-	font-family: 'Baskerville MT Std';
+	font-family: 'Baskerville MT Std', Georgia, serif;
 	font-size: 21px;
 }
 
 .aboutMeTextBody {
-	font-family: 'News Gothic MT Std';
-	font-size: 18px;
+	font-family: 'News Gothic MT Std', Georgia, serif;
+	font-size: 16px;
+	margin-top: 15px;
+	padding: 0;
+}
+
+.contactMeTextBox, .contactMeTextTitle, {
+	margin: 0;
+	padding: 0;
+}
+
+.contactMeTextTitle {
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.contactEmailText {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 20px 0 0 0;
+	padding: 0;
 }
 
 
-	
 @media screen and (max-width: 1100px)
 {
 	nav {
@@ -480,11 +510,11 @@ aside {
 		width: 840px;
 	}
 	
-	.aboutMeContainer {
+	.aboutMeContainer, .contactMeContainer {
 		width: 68%;	
 	}
 	
-	.aboutMeSpacer {
+	.aboutMeSpacer, .contactMeSpacer {
 		width: 16%;
 	}
 }
@@ -581,7 +611,7 @@ aside {
 	}
 	
 	.samplePortfolioBoxSubheading {
-		font-family: 'Baskerville MT Std';
+		font-family: 'Baskerville MT Std', Georgia, serif;
 		padding: 0;
 		margin: 0 115px 0 0;
 		float: right;
@@ -607,7 +637,7 @@ aside {
 		width: 50%;
 	}
 	
-	.aboutMeTitle {
+	.aboutMeTitle, .contactMeTitle {
 		padding: 55px 0 0 0;
 	}
 	
@@ -615,11 +645,11 @@ aside {
 		width: 600px;
 	}
 	
-	.aboutMeContainer {
+	.aboutMeContainer, .contactMeContainer {
 		width: 80%;	
 	}
 	
-	.aboutMeSpacer {
+	.aboutMeSpacer, .contactMeSpacer {
 		width: 10%;
 	}
 
@@ -722,7 +752,7 @@ aside {
 	}
 	
 	.samplePortfolioBoxSubheading {
-		font-family: 'Baskerville MT Std';
+		font-family: 'Baskerville MT Std', Georgia, serif;
 		margin: 60px 20px 45px 0;
 		font-style: italic;
 		font-size: 16px;
@@ -749,7 +779,7 @@ aside {
 		width: 100%;
 	}
 	
-	.aboutMeTitle {
+	.aboutMeTitle, .contactMeTitle {
 		padding: 55px 0 0 0;
 	}
 	
@@ -757,11 +787,11 @@ aside {
 		width: 350px;
 	}
 	
-	.aboutMeContainer {
+	.aboutMeContainer, .contactMeContainer {
 		width: 90%;	
 	}
 	
-	.aboutMeSpacer {
+	.aboutMeSpacer, .contactMeSpacer {
 		width: 5%;
 	}
 	
@@ -771,10 +801,22 @@ aside {
 		font-size: 19px;
 	}
 
-	.aboutMeTextBody {
+	.aboutMeTextBody, .contactMeTextTitle {
 		font-family: 'News Gothic MT Std';
 		font-size: 15px;
 	}		
+	
+	.contactEmailText {
+		font-size: 18px;
+	}
+	
+	.contactMeTextTitle {
+		text-align: left;
+	}
+	
+	.contactMeContainer {
+		padding: 0 20px 0 20px;
+	}
 	
 	.aboutMeTextBox {
 		width: 90%;
