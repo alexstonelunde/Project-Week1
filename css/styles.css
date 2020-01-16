@@ -160,7 +160,6 @@ a {
 	width: 1200px;
 	margin: 0;
 	padding: 0;
-	overflow: auto;
 	display: none;
 }
 
@@ -565,16 +564,16 @@ aside {
 	
 	.tildeContainer {
 		width: 600px;
-		display: block;
+		display: inline-block;
 	}
 
 	.tildeSpacer {
 		width: 0px;
-		display: block;
+		display: inline-block;
 	}
 
 	.tildeSpacer div {
-		height: 25px;
+		height: 30px;
 	}
 
 	.tildeBox {
@@ -582,7 +581,7 @@ aside {
 	}
 
 	.tildeBox div {
-		height: 25px;
+		height: 30px;
 		font-size: 40px;
 	}
 
