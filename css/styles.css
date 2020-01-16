@@ -96,7 +96,7 @@ body {
 
 nav {
 	width: 1200px;
-	margin: 0;
+	margin: 0 auto;
 	overflow: auto;
 }
 
@@ -158,7 +158,7 @@ a {
 
 .tildeContainer {
 	width: 1200px;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	display: none;
 }
@@ -168,7 +168,7 @@ a {
 	overflow: auto;
 	width: 23%;
 	display: none;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 
@@ -194,7 +194,7 @@ a {
 
 section {
 	width: 1200px;
-	margin: 0;
+	margin: 0 auto;
 	overflow: auto;
 	padding-top: 20px;
 }
@@ -202,11 +202,11 @@ section {
 .samplePortfolioContainer {
 	float: left;
 	overflow: auto;
-	width: 70%;
+	width: 69%;
 }
 
 .samplePortfolioSpacer {
-	width: 15%;
+	width: 15.5%;
 	float: left;
 	overflow: auto;
 }
@@ -258,7 +258,7 @@ section {
 
 main {
 	width: 1200px;
-	margin: 0;
+	margin: 0 auto;
 	overflow: auto;
 	
 }
@@ -376,7 +376,7 @@ main {
 
 aside {
 	width: 1200px;
-	margin: 0;
+	margin: 0 auto;
 	overflow: auto;
 }
 
@@ -393,7 +393,7 @@ aside {
 .aboutMeContainer, .contactMeContainer {
 	overflow: auto;
 	width: 50%;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 
@@ -564,7 +564,7 @@ aside {
 	
 	.tildeContainer {
 		width: 600px;
-		display: inline-block;
+		display: block;
 	}
 
 	.tildeSpacer {
