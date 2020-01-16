@@ -227,11 +227,11 @@ main {
 	width: 1200px;
 	margin: 0;
 	overflow: auto;
-	padding-top: 40px;
+	
 }
 
 .portfolioContainerTitle {
-	padding: 45px 0 0 0;
+	padding: 60px 0 0 0;
 	text-align: center;
 	letter-spacing: 2px;
 	font-size: 18px;
@@ -293,7 +293,6 @@ main {
 	background-image: url('images/port1.png');
 }
 
-
 .insideSpacer {
 	float: left;
 	width: 33.333%;
@@ -320,11 +319,87 @@ main {
 	padding-top: 40px;
 }
 
+.aboutMeTitle {
+	padding: 55px 0 0 0;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+	
+.aboutMeTitle p {
+	font-family: 'Baskerville MT Std';
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 30px;
+}
+
+aside {
+	width: 1200px;
+	margin: 0;
+	overflow: auto;
+}
+
+.aboutMeSpacer {
+	width: 25%;
+	float: left;
+	overflow: auto;
+}
+
+.aboutMeSpacer div {	
+	height: 80px;
+}
+
+.aboutMeContainer {
+	overflow: auto;
+	width: 50%;
+	margin: 0;
+}
+
+.aboutInsideSpacer {
+	overflow: auto;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+.aboutMeImageBox {
+	background-size: cover;
+    background-position: center;
+    height: 120px;
+    width: 100px;
+    margin: 0;
+    overflow: hidden;
+    background-image: url('images/me.png');
+    border-radius: 40px;
+    float: left;
+}
+
+.aboutMeTextBox {
+	float: right;
+	overflow: auto;
+	width: 70%;
+	line-height: 1.5;
+}
+
+.aboutMeTextTitle {
+	margin: 0;
+	font-family: 'Baskerville MT Std';
+	font-size: 21px;
+}
+
+.aboutMeTextBody {
+	font-family: 'News Gothic MT Std';
+	font-size: 18px;
+}
+
+
 	
 @media screen and (max-width: 1100px)
 {
 	nav {
-		width: 900px;
+		width: 840px;
 	}
 	
 	.navSpacer {
@@ -344,11 +419,11 @@ main {
 	}
 	
 	.samplePortfolioContainer {
-		width: 98%;
+		width: 97%;
 	}
 
 	.samplePortfolioSpacer {
-		width: 1%;
+		width: 1.5%;
 	}
 	
 	.samplePortfolioBoxHead span {
@@ -365,6 +440,18 @@ main {
 	
 	.portfolioSpacer {
 		width: 1%;
+	}
+	
+	aside {
+		width: 840px;
+	}
+	
+	.aboutMeContainer {
+		width: 68%;	
+	}
+	
+	.aboutMeSpacer {
+		width: 16%;
 	}
 }
 
@@ -411,37 +498,39 @@ main {
 	
 	section {
 		width: 600px;
+		padding-top: 30px;
 	}
 	
 	.portfolioContainerTitle {
-	padding: 30px 0 0 0;
+		padding: 60px 0 0 0;
 	}
+	
 	.samplePortfolioContainer {
-		width: 98%;
+		width: 96%;
 	}
 
 	.samplePortfolioSpacer {
-		width: 1%;
+		width: 2%;
 	}
 	
 	.samplePortfolioBoxHead {
-	padding: 0;
-	margin: 115px 0 0 45px;
-	float: left;
-	font-size: 21px;
-	letter-spacing: 4.3px;
-	line-height: 38px;
+		padding: 0;
+		margin: 115px 0 0 45px;
+		float: left;
+		font-size: 21px;
+		letter-spacing: 4.3px;
+		line-height: 38px;
 	}
 	
 	.samplePortfolioBoxSubheading {
-	font-family: 'Baskerville MT Std';
-	padding: 0;
-	margin: 0 115px 0 0;
-	float: right;
-	font-style: italic;
-	font-size: 22px;
-	letter-spacing: 2.1px;
-	line-height: 24px;
+		font-family: 'Baskerville MT Std';
+		padding: 0;
+		margin: 0 115px 0 0;
+		float: right;
+		font-style: italic;
+		font-size: 22px;
+		letter-spacing: 2.1px;
+		line-height: 24px;
 	}
 	
 	main {
@@ -459,6 +548,23 @@ main {
 	.insideSpacer {
 		width: 50%;
 	}
+	
+	.aboutMeTitle {
+		padding: 55px 0 0 0;
+	}
+	
+	aside {
+		width: 600px;
+	}
+	
+	.aboutMeContainer {
+		width: 80%;	
+	}
+	
+	.aboutMeSpacer {
+		width: 10%;
+	}
+
 	
 }
 
@@ -507,14 +613,16 @@ main {
 	}
 	
 	.portfolioContainerTitle {
-	padding: 10px 0 0 0;
+		padding: 55px 0 0 0;
 	}
+	
 	.samplePortfolioContainer {
-		width: 98%;
+		width: 95%;
+		border-radius: 10px;
 	}
 
 	.samplePortfolioSpacer {
-		width: 1%;
+		width: 2.5%;
 	}
 	
 	.samplePortfolioBoxHead {
@@ -553,5 +661,61 @@ main {
 		width: 100%;
 	}
 	
+	.aboutInsideSpacer {
+		width: 100%;
+	}
+	
+	.aboutMeTitle {
+		padding: 55px 0 0 0;
+	}
+	
+	aside {
+		width: 350px;
+	}
+	
+	.aboutMeContainer {
+		width: 90%;	
+	}
+	
+	.aboutMeSpacer {
+		width: 5%;
+	}
+	
+	.aboutMeTextTitle {
+		margin: 0;
+		font-family: 'Baskerville MT Std';
+		font-size: 19px;
+	}
+
+	.aboutMeTextBody {
+		font-family: 'News Gothic MT Std';
+		font-size: 15px;
+	}		
+	
+	.aboutMeTextBox {
+		width: 90%;
+	}
+	
+	.aboutMeImageBox {
+	    height: 90px;
+	    width: 100%;
+	    border-radius: 10px;
+	    margin-bottom: 25px;
+	}
+	
+	.portfolioBox {
+	    height: 100px;
+	    border-radius: 10px;
+	}
+	
+	.portfolioBox .portfolioBoxHead {
+		font-size: 24px;
+		padding: 0;
+	}
+
+	.portfolioBox .portfolioBoxSubheading {
+		font-size: 18px;
+		padding: 0;
+	}
 }
 
