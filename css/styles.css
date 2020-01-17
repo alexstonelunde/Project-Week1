@@ -1,0 +1,849 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Baskerville MT Std';
+    src: url('fonts/BaskervilleMTStd-Regular.eot');
+    src: url('fonts/BaskervilleMTStd-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BaskervilleMTStd-Regular.woff2') format('woff2'),
+        url('fonts/BaskervilleMTStd-Regular.woff') format('woff'),
+        url('fonts/BaskervilleMTStd-Regular.ttf') format('truetype'),
+        url('fonts/BaskervilleMTStd-Regular.svg#BaskervilleMTStd-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'News Gothic MT Std';
+    src: url('fonts/NewsGothicMTStd.eot');
+    src: url('fonts/NewsGothicMTStd.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NewsGothicMTStd.woff2') format('woff2'),
+        url('fonts/NewsGothicMTStd.woff') format('woff'),
+        url('fonts/NewsGothicMTStd.ttf') format('truetype'),
+        url('fonts/NewsGothicMTStd.svg#NewsGothicMTStd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'News Gothic MT Std';
+    src: url('fonts/NewsGothicMTStd-Bold.eot');
+    src: url('fonts/NewsGothicMTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NewsGothicMTStd-Bold.woff2') format('woff2'),
+        url('fonts/NewsGothicMTStd-Bold.woff') format('woff'),
+        url('fonts/NewsGothicMTStd-Bold.ttf') format('truetype'),
+        url('fonts/NewsGothicMTStd-Bold.svg#NewsGothicMTStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Baskerville MT Std';
+    src: url('fonts/BaskervilleMTStd-Bold.eot');
+    src: url('fonts/BaskervilleMTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BaskervilleMTStd-Bold.woff2') format('woff2'),
+        url('fonts/BaskervilleMTStd-Bold.woff') format('woff'),
+        url('fonts/BaskervilleMTStd-Bold.ttf') format('truetype'),
+        url('fonts/BaskervilleMTStd-Bold.svg#BaskervilleMTStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baskerville MT Std';
+    src: url('fonts/BaskervilleMTStd-Italic.eot');
+    src: url('fonts/BaskervilleMTStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BaskervilleMTStd-Italic.woff2') format('woff2'),
+        url('fonts/BaskervilleMTStd-Italic.woff') format('woff'),
+        url('fonts/BaskervilleMTStd-Italic.ttf') format('truetype'),
+        url('fonts/BaskervilleMTStd-Italic.svg#BaskervilleMTStd-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Baskerville MT Semi';
+    src: url('fonts/BaskervilleMTStd-SemiBdIt.eot');
+    src: url('fonts/BaskervilleMTStd-SemiBdIt.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BaskervilleMTStd-SemiBdIt.woff2') format('woff2'),
+        url('fonts/BaskervilleMTStd-SemiBdIt.woff') format('woff'),
+        url('fonts/BaskervilleMTStd-SemiBdIt.ttf') format('truetype'),
+        url('fonts/BaskervilleMTStd-SemiBdIt.svg#BaskervilleMTStd-SemiBdIt') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Baskerville MT Semi';
+    src: url('fonts/BaskervilleMTStd-SemiBd.eot');
+    src: url('fonts/BaskervilleMTStd-SemiBd.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BaskervilleMTStd-SemiBd.woff2') format('woff2'),
+        url('fonts/BaskervilleMTStd-SemiBd.woff') format('woff'),
+        url('fonts/BaskervilleMTStd-SemiBd.ttf') format('truetype'),
+        url('fonts/BaskervilleMTStd-SemiBd.svg#BaskervilleMTStd-SemiBd') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+body {
+	margin: 0;
+	font-family: 'News Gothic MT Std', Arial, Helvetica, sans-serif;
+	}
+
+nav {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.logoLink {
+	color: black;
+}
+
+.navContainer {
+	float: left;
+	overflow: auto;
+	width: 13.5%;
+
+}
+
+.navContainer div {
+	height: 50px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+
+.navContainer .logoBox {
+  	font-family: 'Baskerville MT Std', Georgia, serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 0px;
+	letter-spacing: 1px;
+
+}
+
+.navContainer .navLinkBox {
+	padding-left: 40px;
+	padding-top: 5px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.navContainer .logoBox p {
+  	padding: 0;
+  	margin: 0;
+}
+
+.navSpacer {
+	float: left;
+	overflow: auto;
+	width: 23%;
+}
+
+
+.navSpacer div {
+	height: 50px;
+}
+
+
+.tildeContainer {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	display: none;
+}
+
+.tildeSpacer {
+	float: left;
+	overflow: auto;
+	width: 23%;
+	display: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.tildeSpacer div {
+	height: 30px;
+}
+
+.tildeBox {
+	float: left;
+	width: 54%;
+	padding: 0;
+	margin: 0;
+}
+
+.tildeBox div {
+	height: 30px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	font-family: 'Baskerville MT Std', Georgia, serif;
+}
+
+section {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+	padding-top: 20px;
+}
+
+.samplePortfolioContainer {
+	float: left;
+	overflow: auto;
+	width: 69%;
+}
+
+.samplePortfolioSpacer {
+	width: 15.5%;
+	float: left;
+	overflow: auto;
+}
+
+.samplePortfolioSpacer div {
+	height: 275px;
+}
+
+.samplePortfolioBox {
+	height: 275px;
+	background-image: url('images/whiskyportcrop.png');
+	color: #ffffff;
+	font-family: 'Baskerville MT Semi', Georgia, serif;
+	font-weight: 600;	
+	clear: both;
+}
+
+.samplePortfolioBox a {
+	color: #ffffff;
+}
+
+.samplePortfolioBoxHead {
+	padding: 0;
+	margin: 118px 0 0 70px;
+	float: left;
+	font-size: 21px;
+	letter-spacing: 4.3px;
+	line-height: 38px;
+}
+
+.samplePortfolioBoxHead span {
+	font-family: 'Baskerville MT Std', Georgia, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	letter-spacing: 3px;
+}
+
+.samplePortfolioBoxSubheading {
+	font-family: 'Baskerville MT Std', Georgia, serif;
+	padding: 0;
+	margin: 0 150px 0 0;
+	float: right;
+	font-style: italic;
+	font-size: 22px;
+	letter-spacing: 2.1px;
+	line-height: 24px;
+}
+
+main {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+	
+}
+
+.portfolioContainerTitle {
+	padding: 60px 0 0 0;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 18px;
+	}
+
+.portfolioContainerTitle p {
+	font-family: 'Baskerville MT Std', Georgia, serif;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 30px;
+	}
+
+.portfolioContainer {
+	float: left;
+	overflow: auto;
+	width: 70%;
+}
+
+.portfolioSpacer {
+	width: 15%;
+	float: left;
+	overflow: auto;
+}
+
+.portfolioSpacer div {
+	height: 275px;
+}
+
+.portfolioBox {
+	background-size: cover;
+    background-position: center;
+    height: 265px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.box1 {
+	background-image: url('images/port1.png');
+}
+
+.box2 {
+	background-image: url('images/port1.png');
+}
+
+.box3 {
+	background-image: url('images/port1.png');
+}
+
+.box4 {
+	background-image: url('images/port1.png');
+}
+
+.box5 {
+	background-image: url('images/port1.png');
+}
+
+.box6 {
+	background-image: url('images/port1.png');
+}
+
+.insideSpacer {
+	float: left;
+	width: 33.333%;
+	padding: 5px;
+	overflow: auto;
+	margin: 0 auto;
+}
+	
+.portfolioBox .portfolioBoxHead {
+	font-family: 'News Gothic MT Std';
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	padding-top: 80px;
+}
+
+.portfolioBox .portfolioBoxSubheading {
+	font-family: 'News Gothic MT Std';
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 14px;
+	padding-top: 40px;
+}
+
+.aboutMeTitle {
+	padding: 55px 0 0 0;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+
+.contactMeTitle {
+	padding: 45px 0 0 0;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+	
+.aboutMeTitle p, .contactMeTitle p {
+	font-family: 'Baskerville MT Std', Georgia, serif;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 30px;
+}
+
+aside {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.aboutMeSpacer, .contactMeSpacer {
+	width: 25%;
+	float: left;
+	overflow: auto;
+}
+
+.aboutMeSpacer div, .contactMeSpacer div {	
+	height: 80px;
+}
+
+.aboutMeContainer, .contactMeContainer {
+	overflow: auto;
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.contactMeContainer {
+	padding: 0 50px 0 50px;
+	margin-bottom: 25px;
+	border-bottom: 2px dotted #A9A9A9;
+}
+
+.aboutInsideSpacer {
+	overflow: auto;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+.aboutMeImageBox {
+	background-size: cover;
+    background-position: center;
+    height: 120px;
+    width: 100px;
+    margin: 0;
+    overflow: hidden;
+    background-image: url('images/me.png');
+    border-radius: 40px;
+    float: left;
+}
+
+.aboutMeTextBox {
+	float: right;
+	overflow: auto;
+	width: 70%;
+	line-height: 1.5;
+}
+
+.aboutMeTextTitle {
+	margin: 0;
+	font-family: 'Baskerville MT Std', Georgia, serif;
+	font-size: 21px;
+}
+
+.aboutMeTextBody {
+	font-family: 'News Gothic MT Std', Georgia, serif;
+	font-size: 16px;
+	margin-top: 15px;
+	padding: 0;
+}
+
+.contactMeTextBox, .contactMeTextTitle, {
+	margin: 0;
+	padding: 0;
+}
+
+.contactMeTextTitle {
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.contactEmailText {
+	text-align: center;
+	font-size: 20px;
+	margin: 20px 0 25px 0;
+	padding: 0;
+}
+
+
+@media screen and (max-width: 1100px)
+{
+	nav {
+		width: 840px;
+	}
+	
+	.navSpacer {
+		width: 10%;
+	}
+	
+	.navContainer {
+		width: 20%;
+	}
+	
+	.navContainer .navLinkBox {
+		font-size: 16px;
+	}
+	
+	section {
+		width: 840px;
+	}
+	
+	.samplePortfolioContainer {
+		width: 97%;
+	}
+
+	.samplePortfolioSpacer {
+		width: 1.5%;
+	}
+	
+	.samplePortfolioBoxHead span {
+		font-size: 24px;
+	}
+	
+	main {
+		width: 840px;
+	}
+	
+	.portfolioContainer {
+		width: 98%;
+	}
+	
+	.portfolioSpacer {
+		width: 1%;
+	}
+	
+	aside {
+		width: 840px;
+	}
+	
+	.aboutMeContainer, .contactMeContainer {
+		width: 68%;	
+	}
+	
+	.aboutMeSpacer, .contactMeSpacer {
+		width: 16%;
+	}
+}
+
+
+@media screen and (max-width: 850px)
+{
+	nav {
+		width: 600px;
+	}
+	
+	.navContainer {
+		width: 100%;
+	}
+	
+	.navSpacer {
+		width: 0px;
+	}
+	
+	.navContainer div {
+		height: 30px;
+	}
+	
+	.navSpacer div {
+		height: 0px;
+	}
+	
+	.navContainer .navLinkBox {
+		padding: 0;
+		font-size: 18px;
+	}
+	
+	.navContainer .logoBox {
+		height: 45px;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+		
+	.navContainer .navDotLinks {
+		height: 0;
+	}
+	
+	.navContainer .navDot {
+		height: 15px;
+	}
+	
+	.tildeContainer {
+		width: 600px;
+		display: block;
+	}
+
+	.tildeSpacer {
+		width: 0px;
+		display: inline-block;
+	}
+
+	.tildeSpacer div {
+		height: 30px;
+	}
+
+	.tildeBox {
+		width: 100%;
+	}
+
+	.tildeBox div {
+		height: 30px;
+		font-size: 40px;
+	}
+
+	section {
+		width: 600px;
+		padding-top: 20px;
+	}
+	
+	.portfolioContainerTitle {
+		padding: 60px 0 0 0;
+	}
+	
+	.samplePortfolioContainer {
+		width: 96%;
+	}
+
+	.samplePortfolioSpacer {
+		width: 2%;
+	}
+	
+	.samplePortfolioBoxHead {
+		padding: 0;
+		margin: 115px 0 0 45px;
+		float: left;
+		font-size: 21px;
+		letter-spacing: 4.3px;
+		line-height: 38px;
+	}
+	
+	.samplePortfolioBoxSubheading {
+		font-family: 'Baskerville MT Std', Georgia, serif;
+		padding: 0;
+		margin: 0 115px 0 0;
+		float: right;
+		font-style: italic;
+		font-size: 22px;
+		letter-spacing: 2.1px;
+		line-height: 24px;
+	}
+	
+	main {
+		width: 600px;
+	}
+	
+	.portfolioContainer {
+		width: 98%;
+	}
+	
+	.portfolioSpacer {
+		width: 1%;
+	}
+	
+	.insideSpacer {
+		width: 50%;
+	}
+	
+	.aboutMeTitle, .contactMeTitle {
+		padding: 55px 0 0 0;
+	}
+	
+	aside {
+		width: 600px;
+	}
+	
+	.aboutMeContainer, .contactMeContainer {
+		width: 80%;	
+	}
+	
+	.aboutMeSpacer, .contactMeSpacer {
+		width: 10%;
+	}
+
+	
+}
+
+@media screen and (max-width: 600px)
+{
+	nav {
+		width: 350px;
+	}
+	
+	.navContainer {
+		width: 100%;
+	}
+	
+	.navSpacer {
+		width: 0px;
+	}
+	
+	.navContainer div {
+		height: 30px;
+	}
+	
+	.navSpacer div {
+		height: 0px;
+	}
+	
+	.navContainer .navLinkBox {
+		padding: 0;
+		font-size: 18px;
+	}
+	
+	.navContainer .logoBox {
+		height: 45px;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+		
+	.navContainer .navDotLinks {
+		height: 0;
+	}
+	
+	.navContainer .navDot {
+		height: 15px;
+	}
+	
+	
+	.tildeContainer {
+		width: 350px;
+		display: block;
+	}
+
+	.tildeSpacer {
+		width: 0px;
+		display: block;
+	}
+
+	.tildeSpacer div {
+		height: 25px;
+	}
+
+	.tildeBox {
+		width: 100%;
+	}
+
+	.tildeBox div {
+		height: 25px;
+		font-size: 40px;
+	}
+
+	
+	section {
+		width: 350px;
+	}
+	
+	.portfolioContainerTitle {
+		padding: 55px 0 0 0;
+	}
+	
+	.samplePortfolioContainer {
+		width: 95%;
+		border-radius: 10px;
+	}
+
+	.samplePortfolioSpacer {
+		width: 2.5%;
+	}
+	
+	.samplePortfolioBoxHead {
+		margin: 75px 0 0 45px;
+		font-size: 20px;
+		letter-spacing: 4.3px;
+		line-height: 20px;
+	}
+	
+	.samplePortfolioBoxHead span {
+		margin: 50px 45px 0 0;
+		font-size: 16px;
+	}
+	
+	.samplePortfolioBoxSubheading {
+		font-family: 'Baskerville MT Std', Georgia, serif;
+		margin: 60px 20px 45px 0;
+		font-style: italic;
+		font-size: 16px;
+		letter-spacing: 2.1px;
+	}
+	
+	main {
+		width: 350px;
+	}
+	
+	.portfolioContainer {
+		width: 98%;
+	}
+	
+	.portfolioSpacer {
+		width: 1%;
+	}
+	
+	.insideSpacer {
+		width: 100%;
+	}
+	
+	.aboutInsideSpacer {
+		width: 100%;
+	}
+	
+	.aboutMeTitle, .contactMeTitle {
+		padding: 55px 0 0 0;
+	}
+	
+	aside {
+		width: 350px;
+	}
+	
+	.aboutMeContainer, .contactMeContainer {
+		width: 90%;	
+	}
+	
+	.aboutMeSpacer, .contactMeSpacer {
+		width: 5%;
+	}
+	
+	.aboutMeTextTitle {
+		margin: 0;
+		font-family: 'Baskerville MT Std';
+		font-size: 19px;
+	}
+
+	.aboutMeTextBody, .contactMeTextTitle {
+		font-family: 'News Gothic MT Std';
+		font-size: 15px;
+	}		
+	
+	.contactEmailText {
+		font-size: 18px;
+	}
+	
+	.contactMeTextTitle {
+		text-align: left;
+		padding: 0 0 0 5px;
+	}
+	
+	.contactMeContainer {
+		padding: 0 0 0 25px;
+	}
+	
+	.aboutMeTextBox {
+		width: 90%;
+	}
+	
+	.aboutMeImageBox {
+	    height: 90px;
+	    width: 100%;
+	    border-radius: 10px;
+	    margin-bottom: 25px;
+	}
+	
+	.portfolioBox {
+	    height: 100px;
+	    border-radius: 10px;
+	}
+	
+	.portfolioBox .portfolioBoxHead {
+		font-size: 24px;
+		padding: 0;
+	}
+
+	.portfolioBox .portfolioBoxSubheading {
+		font-size: 18px;
+		padding: 0;
+	}
+}
+
