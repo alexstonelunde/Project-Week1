@@ -1,2 +1,5 @@
 .DS_Store
 /exclude
+styletest.scss
+styles.css.map
+.idea
