@@ -1,5 +1,5 @@
 $animate: all 0.2s ease-in-out; 
-$background: #f3f3f3;
+$background: #f9f9f9;
 $primary_font: 'Abel', sans-serif;
 $secondary_font: 'Sen', sans-serif;
 $third_font: 'Open Sans', sans-serif;
@@ -243,7 +243,7 @@ nav {
     height: 35px;
     border-top-left-radius: 50px 25px;
     border-top-right-radius: 50px 25px;
-    border-top: 4px solid $myOrange;
+    border-top: 6px solid $myOrange;
     // border-left: 3px solid rgb(255, 181, 62);
     // border-right: 3px solid rgb(255, 181, 62);
     float: left;
@@ -313,11 +313,11 @@ nav {
 
     border-top-left-radius: 50px 25px;
     border-top-right-radius: 50px 25px;
-    border-top: 3px solid $myDarkBlue;
+    border-top: 4px solid $myDarkBlue;
     
     border-bottom-left-radius: 50px 25px;
     border-bottom-right-radius: 50px 25px;
-    border-bottom: 2px solid $myDarkBlue;
+    border-bottom: 3px solid $myDarkBlue;
 
     // .borderDiv {
     //     border-width: 1px;
@@ -374,7 +374,7 @@ nav {
 
         border-top-left-radius: 15px 10px;
         border-top-right-radius: 15px 10px;
-        border-top: 2px solid $darkOrange;
+        border-top: 3px solid $darkOrange;
     }
 
     .projLinks {
@@ -417,7 +417,7 @@ nav {
     margin: 35px 15% 25px 15%;
     border-top-left-radius: 50px 25px;
     border-top-right-radius: 50px 25px;
-    border-top: 2px solid $darkOrange;
+    border-top: 4px solid $darkOrange;
     padding-top: 25px;
 }
 
